@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#MISE description="🗃️ Setup the Postgres Dev Kit"
+#MISE description="🧰 Setup the Postgres Dev Kit"
 #MISE quiet=true
 
 #______________________________________________________________________________
@@ -13,7 +13,7 @@ purple_white() {
 #______________________________________________________________________________
 
 echo
-purple_white "🗃️ Creating the Postgres cluster and default database"
+purple_white "🧰 Setting up the Postgres Dev Kit"
 echo "========================================================================"
 
 echo
