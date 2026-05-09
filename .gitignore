@@ -1,0 +1,7 @@
+# The Postgres cluster
+# Automatically created by the command `initdb -D .postgres`
+.postgres/
+
+# The Python virtual environment
+# Automatically created by the command `uv venv -p python_version`
+.venv/
