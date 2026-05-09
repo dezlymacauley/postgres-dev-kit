@@ -1,0 +1,20 @@
+[tools]
+postgres = "latest"
+uv = "latest"
+
+[settings]
+python.uv_venv_auto = true
+
+[env]
+# psql (Database Setup and Admin Tasks)
+PSQL_LOGIN_USER_NAME = "{{ env.USER }}"
+PSQL_DB_NAME = "postgres_dev_kit"
+PSQL_DB_HOST = "127.0.0.1"
+PSQL_DB_PORT = "5432"
+
+# pgcli (Database Query Tasks)
+PGCLI_LOGIN_USER_NAME = "{{ env.USER }}"
+PGCLI_DB_NAME = "postgres_dev_kit"
+PGCLI_DB_HOST = "127.0.0.1"
+PGCLI_DB_PORT = "5432"
+PGCLI_CONFIG_FILE = ".pgcli_config.ini"
